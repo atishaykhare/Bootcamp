@@ -1,0 +1,269 @@
+[
+  {
+    "_id": "5d713995b721c3bb38c1f5d0",
+    "user": "5d7a514b5d2c12c7449be045",
+    "name": "Devworks Bootcamp",
+    "description": "Devworks is a full stack JavaScript Bootcamp located in the heart of Boston that focuses on the technologies you need to get a high paying job as a web developer",
+    "website": "https://devworks.com",
+    "phone": "(111) 111-1111",
+    "email": "enroll@devworks.com",
+    "address": "233 Bay State Rd Boston MA 02215",
+    "careers": [
+      "Web Development",
+      "UI/UX",
+      "Business"
+    ],
+    "housing": true,
+    "jobAssistance": true,
+    "jobGuarantee": false,
+    "acceptGi": true
+  },
+  {
+    "_id": "5d713a66ec8f2b88b8f830b8",
+    "user": "5d7a514b5d2c12c7449be046",
+    "name": "ModernTech Bootcamp",
+    "description": "ModernTech has one goal, and that is to make you a rockstar developer and/or designer with a six figure salary. We teach both development and UI/UX",
+    "website": "https://moderntech.com",
+    "phone": "(222) 222-2222",
+    "email": "enroll@moderntech.com",
+    "address": "220 Pawtucket St, Lowell, MA 01854",
+    "careers": [
+      "Web Development",
+      "UI/UX",
+      "Mobile Development"
+    ],
+    "housing": false,
+    "jobAssistance": true,
+    "jobGuarantee": false,
+    "acceptGi": true
+  },
+  {
+    "_id": "5d725a037b292f5f8ceff787",
+    "user": "5c8a1d5b0190b214360dc031",
+    "name": "Codemasters",
+    "description": "Is coding your passion? Codemasters will give you the skills and the tools to become the best developer possible. We specialize in full stack web development and data science",
+    "website": "https://codemasters.com",
+    "phone": "(333) 333-3333",
+    "email": "enroll@codemasters.com",
+    "address": "85 South Prospect Street Burlington VT 05405",
+    "careers": [
+      "Web Development",
+      "Data Science",
+      "Business"
+    ],
+    "housing": false,
+    "jobAssistance": false,
+    "jobGuarantee": false,
+    "acceptGi": false
+  },
+  {
+    "_id": "5d725a1b7b292f5f8ceff788",
+    "user": "5c8a1d5b0190b214360dc032",
+    "name": "Devcentral Bootcamp",
+    "description": "Is coding your passion? Codemasters will give you the skills and the tools to become the best developer possible. We specialize in front end and full stack web development",
+    "website": "https://devcentral.com",
+    "phone": "(444) 444-4444",
+    "email": "enroll@devcentral.com",
+    "address": "45 Upper College Rd Kingston RI 02881",
+    "careers": [
+      "Mobile Development",
+      "Web Development",
+      "Data Science",
+      "Business"
+    ],
+    "housing": false,
+    "jobAssistance": true,
+    "jobGuarantee": true,
+    "acceptGi": true
+  },
+  {
+    "_id": "5d725a1b7b292f5f8ceff789",
+    "user": "5c8a1d5b0190b214360dc033",
+    "name": "Techverse Bootcamp",
+    "description": "Techverse Bootcamp offers cutting-edge courses in full stack development and cybersecurity. We ensure you're industry-ready with hands-on experience.",
+    "website": "https://techverse.com",
+    "phone": "(555) 555-5555",
+    "email": "enroll@techverse.com",
+    "address": "101 Tech Lane, Cambridge, MA 02139",
+    "careers": [
+      "Web Development",
+      "Cybersecurity",
+      "Data Science"
+    ],
+    "housing": true,
+    "jobAssistance": true,
+    "jobGuarantee": false,
+    "acceptGi": true
+  },
+  {
+    "_id": "5d725a1b7b292f5f8ceff790",
+    "user": "5c8a1d5b0190b214360dc034",
+    "name": "Innovate Bootcamp",
+    "description": "Innovate Bootcamp focuses on immersive learning in web development, data science, and machine learning. We provide the skills to succeed in a tech career.",
+    "website": "https://innovate.com",
+    "phone": "(666) 666-6666",
+    "email": "enroll@innovate.com",
+    "address": "202 Innovation Dr, Palo Alto, CA 94301",
+    "careers": [
+      "Web Development",
+      "Data Science",
+      "Machine Learning"
+    ],
+    "housing": false,
+    "jobAssistance": true,
+    "jobGuarantee": true,
+    "acceptGi": true
+  },
+  {
+    "_id": "5d725a1b7b292f5f8ceff791",
+    "user": "5c8a1d5b0190b214360dc035",
+    "name": "BrightFuture Bootcamp",
+    "description": "BrightFuture Bootcamp specializes in mobile and web development. We help you build a bright future with industry-relevant skills and job assistance.",
+    "website": "https://brightfuture.com",
+    "phone": "(777) 777-7777",
+    "email": "enroll@brightfuture.com",
+    "address": "303 Sunshine Blvd, Miami, FL 33101",
+    "careers": [
+      "Mobile Development",
+      "Web Development",
+      "UI/UX"
+    ],
+    "housing": true,
+    "jobAssistance": true,
+    "jobGuarantee": false,
+    "acceptGi": false
+  },
+  {
+    "_id": "5d725a1b7b292f5f8ceff792",
+    "user": "5c8a1d5b0190b214360dc036",
+    "name": "CodeWorld Bootcamp",
+    "description": "CodeWorld Bootcamp offers comprehensive programs in full stack development and artificial intelligence, designed to make you a world-class developer.",
+    "website": "https://codeworld.com",
+    "phone": "(888) 888-8888",
+    "email": "enroll@codeworld.com",
+    "address": "404 Tech Park, San Francisco, CA 94103",
+    "careers": [
+      "Web Development",
+      "AI",
+      "Data Science"
+    ],
+    "housing": false,
+    "jobAssistance": true,
+    "jobGuarantee": false,
+    "acceptGi": true
+  },
+  {
+    "_id": "5d725a1b7b292f5f8ceff793",
+    "user": "5c8a1d5b0190b214360dc037",
+    "name": "NextGen Bootcamp",
+    "description": "NextGen Bootcamp prepares you for the next generation of tech jobs with courses in full stack development, cloud computing, and blockchain.",
+    "website": "https://nextgen.com",
+    "phone": "(999) 999-9999",
+    "email": "enroll@nextgen.com",
+    "address": "505 Future St, Austin, TX 78701",
+    "careers": [
+      "Web Development",
+      "Cloud Computing",
+      "Blockchain"
+    ],
+    "housing": false,
+    "jobAssistance": true,
+    "jobGuarantee": true,
+    "acceptGi": true
+  },
+  {
+    "_id": "5d725a1b7b292f5f8ceff794",
+    "user": "5c8a1d5b0190b214360dc038",
+    "name": "TechPro Bootcamp",
+    "description": "TechPro Bootcamp offers hands-on courses in web development, cybersecurity, and AI, designed to make you a tech professional in demand.",
+    "website": "https://techpro.com",
+    "phone": "(111) 123-4567",
+    "email": "enroll@techpro.com",
+    "address": "606 Pro Dr, Denver, CO 80202",
+    "careers": [
+      "Web Development",
+      "Cybersecurity",
+      "AI"
+    ],
+    "housing": true,
+    "jobAssistance": true,
+    "jobGuarantee": false,
+    "acceptGi": false
+  },
+  {
+    "_id": "5d725a1b7b292f5f8ceff795",
+    "user": "5c8a1d5b0190b214360dc039",
+    "name": "SkillBoost Bootcamp",
+    "description": "SkillBoost Bootcamp focuses on enhancing your skills in web development, data science, and mobile app development to boost your career prospects.",
+    "website": "https://skillboost.com",
+    "phone": "(222) 234-5678",
+    "email": "enroll@skillboost.com",
+    "address": "707 Skill St, Seattle, WA 98101",
+    "careers": [
+      "Web Development",
+      "Data Science",
+      "Mobile Development"
+    ],
+    "housing": false,
+    "jobAssistance": true,
+    "jobGuarantee": true,
+    "acceptGi": true
+  },
+  {
+    "_id": "5d725a1b7b292f5f8ceff796",
+    "user": "5c8a1d5b0190b214360dc040",
+    "name": "CodeNinja Bootcamp",
+    "description": "CodeNinja Bootcamp teaches you the art of coding with courses in full stack development, UI/UX, and game development, making you a coding ninja.",
+    "website": "https://codeninja.com",
+    "phone": "(333) 345-6789",
+    "email": "enroll@codeninja.com",
+    "address": "808 Ninja Way, Los Angeles, CA 90001",
+    "careers": [
+      "Web Development",
+      "UI/UX",
+      "Game Development"
+    ],
+    "housing": true,
+    "jobAssistance": true,
+    "jobGuarantee": false,
+    "acceptGi": false
+  },
+  {
+    "_id": "5d725a1b7b292f5f8ceff797",
+    "user": "5c8a1d5b0190b214360dc041",
+    "name": "FutureTech Bootcamp",
+    "description": "FutureTech Bootcamp offers forward-thinking courses in web development, AI, and data science, preparing you for the future of technology.",
+    "website": "https://futuretech.com",
+    "phone": "(444) 456-7890",
+    "email": "enroll@futuretech.com",
+    "address": "909 Future Blvd, San Jose, CA 95112",
+    "careers": [
+      "Web Development",
+      "AI",
+      "Data Science"
+    ],
+    "housing": false,
+    "jobAssistance": true,
+    "jobGuarantee": true,
+    "acceptGi": true
+  },
+  {
+    "_id": "5d725a1b7b292f5f8ceff798",
+    "user": "5c8a1d5b0190b214360dc042",
+    "name": "PrimeCode Bootcamp",
+    "description": "PrimeCode Bootcamp provides top-notch training in web development, cloud computing, and data analysis, ensuring you become a prime candidate for tech jobs.",
+    "website": "https://primecode.com",
+    "phone": "(555) 567-8901",
+    "email": "enroll@primecode.com",
+    "address": "1010 Prime St, Boston, MA 02215",
+    "careers": [
+      "Web Development",
+      "Cloud Computing",
+      "Data Analysis"
+    ],
+    "housing": false,
+    "jobAssistance": true,
+    "jobGuarantee": false,
+    "acceptGi": true
+  }
+]
