@@ -15,9 +15,10 @@ dotenv.config({path: './config/config.env'});
 connectDB();
 
 //Route files
-const bootcamps = require('./routes/bootcamp');
+const bootcamps = require('./routes/bootcamp.route');
 const courses = require('./routes/courses.route');
 const auth = require('./routes/auth.route');
+const user = require('./routes/users.route');
 
 const app = express();
 
@@ -41,6 +42,7 @@ app.use(express.static(path.join(__dirname, 'public')))
 app.use('/api/v1/bootcamps', bootcamps);
 app.use('/api/v1/courses', courses);
 app.use('/api/v1/auth', auth);
+app.use('/api/v1/user', user);
 
 app.use(error)
 
