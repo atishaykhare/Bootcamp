@@ -7,6 +7,7 @@ dotenv.config({path: './config/config.env'});
 const Bootcamp = require('./models/Bootcamp');
 const Course = require('./models/Course');
 const User = require('./models/User');
+const Review = require('./models/Review');
 
 mongoose.connect(process.env.MONGO_URI).then(function (connection) {
     console.log(`Connected to Mongoose ${connection}`);
@@ -23,6 +24,7 @@ const importData = async () => {
         await Bootcamp.create(bootcamps);
         await Course.create(course);
         await User.create(user);
+        await Review.create(review);
 
         console.log('Data Imported....');
         process.exit();
@@ -39,6 +41,8 @@ const deleteData = async () => {
         await Bootcamp.deleteMany();
         await Course.deleteMany();
         await User.deleteMany();
+        await Review.deleteMany();
+
         console.log('Data Destroyed....');
         process.exit();
     } catch (e) {

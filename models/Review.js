@@ -23,12 +23,12 @@ const ReviewSchema = new mongoose.Schema({
     },
     bootcamp: {
         type: mongoose.Schema.ObjectId,
-        ref: 'Bootcamps',
+        ref: 'Bootcamp',
         required: true
     },
     user: {
         type: mongoose.Schema.ObjectId,
-        ref: 'Users',
+        ref: 'User',
         required: true
     }
 });
