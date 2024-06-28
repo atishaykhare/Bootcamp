@@ -1,7 +1,7 @@
 const express = require('express');
 
 const Review = require('../models/Review');
-const {getReview, getSingleReview, addReview} = require('../controller/review.controller');
+const {getReview, getSingleReview, addReview, updateReview, deleteReview} = require('../controller/review.controller');
 
 const advanceResults = require('../middleware/pagination')
 
@@ -21,7 +21,8 @@ router.route('/').get(
     getReview
 ).post(protect, authorize('user', 'admin'), addReview);
 
-router.route('/:id').get(getSingleReview)
+router.route('/:id').get(getSingleReview).put(protect, authorize('user', 'admin'), updateReview).delete(protect, authorize('user', 'admin'), deleteReview)
+;
 
 
 module.exports = router;
