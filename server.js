@@ -6,6 +6,12 @@ const path = require('path');
 const cookieParser = require('cookie-parser');
 
 const connectDB = require('./config/db');
+const mongoSanatize = require('express-mongo-sanitize');
+const helmet = require('helmet');
+const xss = require('xss-clean')
+const rateLimit = require('express-rate-limit');
+const hpp = require('hpp');
+const cors = require('cors');
 
 const error = require('./middleware/error');
 const logger = require('./middleware/logger');
@@ -34,7 +40,32 @@ if (process.env.NODE_ENV === 'development') {
     app.use(morgan('dev'));
 }
 
+// File uploading
 app.use(fileUpload());
+
+// Sanitize data
+app.use(mongoSanatize());
+
+
+// Set security headers
+app.use(helmet());
+
+//Prevent XSS vulnerabilities
+app.use(xss());
+
+//Prevent Cross Site Request Forgery
+app.use(cors());
+
+// Rate limiting
+const limiter = rateLimit({
+    windowMs: 15 * 60 * 1000, // 15 minutes
+    max: 10, // limit each IP to 100 requests per windowMs
+});
+
+app.use(limiter);
+
+// Prevent HTTP parameter pollution
+app.use(hpp());
 
 //Set static folder
 app.use(express.static(path.join(__dirname, 'public')))
